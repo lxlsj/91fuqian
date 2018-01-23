@@ -1,0 +1,53 @@
+@import './reset';
+.clearfix{
+  _height: 1%;
+  &:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+}
+
+#appRoot{
+  position: relative;
+  min-height: 100%;
+}
+
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.from-query{
+  padding: 10px 20px 0 20px;
+  .el-form-item{
+    margin-bottom: 10px;
+  }
+}
+.form-item__block{
+  .el-select{
+    display: block;
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+.dialog-footer{
+  text-align: center;
+}
+.sub-container{
+  padding: 0 20px;
+  .sub-container__gray{
+    font-size: 14px;
+    color: #333;
+  }
+}
+.table-container{
+  margin-top: 10px;
+  padding: 0 20px;
+}
+.pagination-wrapper{
+  margin-top: 10px;
+  text-align: right;
+}
+.page-title{
+  margin-bottom: 20px;
+  font-size: 24px;
+}
